@@ -1,1 +1,1 @@
-dddd基于python的数据分析-
+This is about python pyqt program
