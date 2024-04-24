@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
 # 读取数据
-data_path = "HR_comma_sep.csv"  # 替换为您的数据文件路径
+data_path = "HR_comma_sep.csv"  #数据文件相对路径
 df = pd.read_csv(data_path, header=None)
 df.columns = ["satisfaction_level", "last_evaluation", "number_project",
               "average_montly_hours", "time_spend_company", "Work_accident",
